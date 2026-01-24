@@ -1,5 +1,6 @@
 ## How I Built a Tiny Markdown Parser (Out of Pure Curiosity)
-
+![Screenshot of my JavaScript Markdown parser code](certificates/markdown/markdown_snippet.png)
+---
 I was just briefing myself on how to write markdown so that I can start writing blogs, and a question arose: how does this actually work , like I knew that its getting parsed but like how?
 I got curious and tried it out for headings and paragraphs by myself.
 
