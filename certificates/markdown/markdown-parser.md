@@ -13,7 +13,7 @@ I had to tell my code exactly where to look on the page.
 - the output area where the magic happens,
 - and the "Convert" button.
 
-```
+```js
 const input = document.getElementById("input");
 const output = document.getElementById("output");
 const button = document.getElementById("convert");
@@ -23,7 +23,7 @@ const button = document.getElementById("convert");
 
 The real logic kicks in the moment I click that button.
 
-```
+```js
 button.addEventListener("click", () => {
   const md = input.value;
   const tokens = tokenize(md);
@@ -53,7 +53,7 @@ My code looks at each line and asks, "Hey, do you start with a # symbol?"
 
 Once it has all those notes ready,
 
-```
+```js
 function tokenize(md) {
   const lines = md.split("\n");
   const tokens = [];
@@ -80,7 +80,7 @@ function tokenize(md) {
 
 This is just a simple translation job. It takes those notes and wraps them in HTML tags—like putting **h1** around the big titles and **p** around the regular text. It glues all those pieces back together and throws them into the output box for the browser to display.
 
-```
+```js
 function render(tokens) {
   return tokens
     .map((token) => {
