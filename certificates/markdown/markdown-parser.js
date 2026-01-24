@@ -30,11 +30,11 @@ function tokenize(md) {
     } else {
       tokens.push({
         type: "text",
-        content: line,
+        content: line, // content of that individual line 
       });
     }
   }
-  return tokens;
+  return tokens; 
 }
 function render(tokens) {
   return tokens

@@ -41,7 +41,9 @@ horizontal rule
         - Sub List Item 1
         - Sub List Item 2
 4. List Item 4
-<!---------------------Bold , Italic and StrikeThrough-------------------->
+<!---------------------Code Blocks-------------------->
+```
+```
 <!---------------------Bold , Italic and StrikeThrough-------------------->
 <!---------------------Bold , Italic and StrikeThrough-------------------->
 <!---------------------Bold , Italic and StrikeThrough-------------------->
