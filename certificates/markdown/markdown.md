@@ -56,6 +56,7 @@ let text1 = "Text 1";
 <!---------------------Links And Emails-------------------->
 
 [Github](https://github.com/anushka-yogi/FullStackDevelopment/tree/main/certificates/markdown)
+<name@gmail.com>
 
 <!---------------------Bold , Italic and StrikeThrough-------------------->
 <!---------------------Bold , Italic and StrikeThrough-------------------->

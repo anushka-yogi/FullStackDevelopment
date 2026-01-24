@@ -1,6 +1,7 @@
 ## How I Built a Tiny Markdown Parser (Out of Pure Curiosity)
-![Screenshot of my JavaScript Markdown parser code](/certificates/markdown/markdown_snippet.png)
----
+
+## ![Screenshot of my JavaScript Markdown parser code](/certificates/markdown/markdown_snippet.png)
+
 I was just briefing myself on how to write markdown so that I can start writing blogs, and a question arose: how does this actually work , like I knew that its getting parsed but like how?
 I got curious and tried it out for headings and paragraphs by myself.
 
@@ -92,10 +93,11 @@ function render(tokens) {
     })
     .join("");
 }
-
 ```
 
 And honestly, **that’s the whole secret**.
 
 > It’s just a cycle of grabbing the text, looking for patterns, and swapping those patterns for HTML.
 > It’s cool to see how such a simple idea is what actually powers the blog editors we use every day.
+
+[Github](https://github.com/anushka-yogi/FullStackDevelopment/tree/main/certificates/markdown)
