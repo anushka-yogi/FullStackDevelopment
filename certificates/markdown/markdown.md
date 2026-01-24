@@ -1,7 +1,6 @@
 # Learning Markdown
 
 <!-------------------------------Headings--------------------------------->
-
 # Heading 1 (h1)
 
 ## Heading 2 (h2)
@@ -28,13 +27,20 @@
    ~~striked through~~
 
 <!---------------------Blockquotes & Horizontal Rules-------------------->
-1. horizontal rule  
+horizontal rule  
 ---
 
-2. > Block Quote
+> Block Quote
 
-<!---------------------Bold , Italic and StrikeThrough-------------------->
-<!---------------------Bold , Italic and StrikeThrough-------------------->
+<!---------------------Lists-------------------->
+1. List Item 1
+2. List Item 2
+3. List Item 3
+    1. List Sublist 1
+    2. List Sublist 2
+        - Sub List Item 1
+        - Sub List Item 2
+4. List Item 4
 <!---------------------Bold , Italic and StrikeThrough-------------------->
 <!---------------------Bold , Italic and StrikeThrough-------------------->
 <!---------------------Bold , Italic and StrikeThrough-------------------->
