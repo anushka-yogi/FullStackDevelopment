@@ -6,7 +6,7 @@ I got curious and tried it out for headings and paragraphs by myself.
 
 ##### This is how I did it:
 
-#### I wrote a small piece of JavaScript to act as the **brain** for the whole thing. Nothing ~~fancy~~, just something on a very small scale that could understand my hashes _( h1 - h6 )_ and _plain text_.
+###### I wrote a small piece of JavaScript to act as the **brain** for the whole thing. Nothing ~~fancy~~, just something on a very small scale that could understand my hashes _( h1 - h6 )_ and _plain text_.
 
 I had to tell my code exactly where to look on the page.
 
