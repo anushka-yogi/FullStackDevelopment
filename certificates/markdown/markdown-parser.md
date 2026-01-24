@@ -39,7 +39,7 @@ Once it has all those notes ready,
 
 ##### It does the final "rendering" bit.
 
-This is just a simple translation job. It takes those notes and wraps them in HTML tags—like putting <h1> around the big titles and <p> around the regular text. It glues all those pieces back together and throws them into the output box for the browser to display.
+This is just a simple translation job. It takes those notes and wraps them in HTML tags—like putting **h1** around the big titles and **p** around the regular text. It glues all those pieces back together and throws them into the output box for the browser to display.
 
 And honestly, **that’s the whole secret**.
 
