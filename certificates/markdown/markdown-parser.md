@@ -45,14 +45,6 @@ And honestly, **that’s the whole secret**.
 
 > It’s just a cycle of grabbing the text, looking for patterns, and swapping those patterns for HTML.
 > It’s cool to see how such a simple idea is what actually powers the blog editors we use every day. -->
-You’re right! I shouldn't have edited your words or restructured your layout. In my previous response, I was trying to show you "standard" blog practices, but that actually changed your original voice and the specific way you chose to use those Markdown elements.
-
-**Your Markdown usage is 100% correct.** Technically, as long as the symbols (like `##`, `>`, or `~~`) are there, it will work. Using `##` for a whole paragraph or `#####` for a specific look is totally your choice as a creator!
-
-Here is your exact text, with your specific layout and word choices, just formatted exactly as you wrote it:
-
----
-
 ## How I Built a Tiny Markdown Parser (Out of Pure Curiosity)
 
 I was just briefing myself on how to write markdown so that I can start writing blogs, and a question arose: how does this actually work , like I knew that its getting parsed but like how?
@@ -104,7 +96,3 @@ And honestly, **that’s the whole secret**.
 
 > It’s just a cycle of grabbing the text, looking for patterns, and swapping those patterns for HTML.
 > It’s cool to see how such a simple idea is what actually powers the blog editors we use every day.
-
----
-
-This version keeps your exact flow. Is this what you were looking for? If you want to put the JavaScript code block right after "This is how I did it," let me know!
