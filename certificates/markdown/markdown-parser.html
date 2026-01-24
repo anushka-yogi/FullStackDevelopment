@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Learning how markdown works</h1>
+    <p class="description">
+      This will just work for <span>Heading Tags</span> &
+      <span>Paragraphs</span>
+    </p>
+    <hr />
+
+    <div class="text-container">
+      <textarea
+        id="input"
+        rows="10"
+        cols="50"
+        placeholder="Write markdown here..."
+      ></textarea>
+      <button id="convert">Convert</button>
+    </div>
+    <hr />
+    <div class="output-container">
+        <h2>Output:</h2>
+    <div id="output"></div>
+    </div>
+
+    <script src="./markdown-parser.js"></script>
+  </body>
+</html>
