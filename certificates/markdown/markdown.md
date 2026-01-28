@@ -58,7 +58,12 @@ let text1 = "Text 1";
 [Github](https://github.com/anushka-yogi/FullStackDevelopment/tree/main/certificates/markdown)
 <name@gmail.com>
 
-<!---------------------Bold , Italic and StrikeThrough-------------------->
+<!---------------------Tables-------------------->
+
+| Left | Center | Right |
+| :--- | :----: | ----: |
+| 1    |   2    |     3 |
+
 <!---------------------Bold , Italic and StrikeThrough-------------------->
 <!---------------------Bold , Italic and StrikeThrough-------------------->
 <!---------------------Bold , Italic and StrikeThrough-------------------->
