@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+#external-css {
+  color: green;
+}
+.rgb {
+  color: rgb(114, 106, 200);
+}
+.hex {
+  /* rrggbb */
+  /* 00-ff|00-ff|00-ff */
+  color: #09025d;
+}
+.rgba {
+  /* a stands for alpha transparency */
+  color: rgba(255, 0, 247, 0.342);
+}
+.hsl {
+  /* 0% to 360% */
+  color: hsl(142, 47%, 44%);
+}
+.bgColor {
+  background-color: rgba(209, 136, 20, 0.497);
+  color: #09025d;
+}
+.pixels {
+  width: 100px;
+  background-color: #011540ca;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.typography {
+  /* font-family: fantasy; */
+  font-size: 10px;
+  text-transform: lowercase;
+  line-height: 20px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-align: right;
+  text-decoration: underline;
+  cursor: copy;
+  font-weight: 800;
+  font-family: "Cedarville Cursive", cursive;
+  /* font-weight: 400; */
+  font-style: italic;
+}
+/* .boxModel {
+  font-family: "Cedarville Cursive", cursive;
+}
+.marginBox {
+  border: 2px solid black;
+  background-color: red;
+  margin: 10px;
+}
+.borderBox {
+  border: 2px solid black;
+}
+.paddingBox {
+  background-color: chartreuse;
+  padding: 5px;
+  border: 2px solid black;
+}
+.contentBox {
+  background-color: red;
+  border: 2px solid black;
+} */
+.borderShorthand {
+  border: 2px solid black;
+}
+.directionsBorder {
+  border-right: 2px solid #09025d;
+  border-left: 2px solid crimson;
+  border-bottom: 2px solid green;
+  border-top: 2px solid yellowgreen;
+}
+.paddingShorthand {
+  border: 2px solid black;
+  /* padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 40px; */
+  /* padding shorthand */
+  /* padding : top right bottom left ; */
+  /* padding: 10px 10px 10px 10px; */
+  /* padding : topbottom rightleft ; */
+  padding: 10px 30px;
+}
+.directionsPadding {
+  border: 2px solid black;
+}
+body {
+  /* background-image: url("https://images.unsplash.com/photo-1765954296215-6c3aadec42aa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed; */
+  /* backgournd : url repeat position size */
+  /* background: url("https://plus.unsplash.com/premium_photo-1764547188193-875b45ed1218?q=80&w=1403&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") */
+  background-color: aliceblue;
+}
+.container {
+  background: grey;
+  width: 100%;
+  height: 300px;
+}
+.d {
+  height: 50px;
+  width: 50px;
+  font-size: 12px;
+}
+.one {
+  background-color: aliceblue;
+  position: static;
+}
+.two {
+  background-color: rgb(9, 89, 159);
+  position: relative;
+  left: 50px;
+}
+.three {
+  background-color: rgb(62, 7, 87);
+  position: absolute;
+  left: 50px;
+}
+.four {
+  background-color: rgb(118, 92, 131);
+  position: sticky;
+  top: 10px;
+}
+.five {
+  background-color: rgb(62, 145, 116);
+  position: fixed;
+  top: 200px;
+}
+.containerFlex {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.containerFlex .child {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background: #09025d;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  color: whitesmoke;
+}
+

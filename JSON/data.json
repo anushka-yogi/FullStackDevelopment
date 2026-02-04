@@ -1,0 +1,9 @@
+{
+  "name": "Anushka",
+  "phone": 9191919191,
+  "skills": ["html", "css", "js"],
+  "address": {
+    "city": "gurgaon",
+    "pincode": 121121
+  }
+}

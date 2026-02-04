@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Css</title>
+    <style>
+      #internal-css {
+        color: blue;
+      }
+      h3 {
+        color: orangered;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Css -->
+    <p>Cascading Style sheet</p>
+    <h2 style="color: red">Inline Css</h2>
+    <h2 id="internal-css">Internal Css</h2>
+    <h2 id="external-css">External Css</h2>
+    <h2>Color Names</h2>
+    <h2 class="rgb">RGB</h2>
+    <h2 class="hex">HEX</h2>
+    <h2 class="rgba">RGBA</h2>
+    <h2 class="hsl">Hue , Saturation & Lightness</h2>
+    <h2 class="bgColor">Background Color</h2>
+    <h2>Units</h2>
+    <p class="absUnit">
+      Unit : Absolute length : exactly that size : cm , mm , in , px , pt , pc
+    </p>
+    <p class="pixels">Pixels</p>
+    <p class="relUnit">
+      Unit : Relative length : length relative to another length property : em ,
+      ex , ch , rem , vw , vh , vmin , vmax , %
+    </p>
+    <p class="percentage">%</p>
+    <p class="typography">
+      Typography <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+      voluptatibus!
+    </p>
+    <h2 class="boxModel">Box model</h2>
+    <!-- <div class="marginBox">
+      marginBox
+      <div class="borderBox">
+        borderBox
+        <div class="paddingBox">
+          paddingBox
+          <div class="contentBox">contentBox</div>
+        </div>
+      </div>
+    </div> -->
+    <p class="borderShorthand">
+      border : width style color
+      <span class="directionsBorder">top right bottom left</span>
+    </p>
+    <p class="paddingShorthand">
+      border : width style color
+      <span class="directionsPadding">top right bottom left</span>
+    </p>
+    <p>
+      No smoking :
+      <i
+        class="fa-solid fa-ban-smoking fa-spin fa-spin-reverse"
+        style="color: #4f058f"
+      ></i>
+    </p>
+    <h2>Position</h2>
+    <div class="container">
+      <div class="d one">static</div>
+      <div class="d two">relative</div>
+      <div class="d three">absolute</div>
+      <div class="d four">sticky</div>
+      <div class="d five">fixed</div>
+    </div>
+    <h2>Flexbox</h2>
+    <div class="containerFlex">
+      <div class="child">child 1</div>
+      <div class="child">child 2</div>
+      <div class="child">child 3</div>
+      <div class="child">child 4</div>
+      <div class="child">child 5</div>
+    </div>
+       
+  </body>
+</html>
